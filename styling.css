@@ -1,0 +1,22 @@
+#container{
+    position: relative;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#gamecanvas {
+    z-index: -1;
+}
+
+#startGame{
+    height: 60px;
+    width: 120px;
+    position: absolute;
+    left: 340px;
+    top: 240px;
+    background: blue;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
